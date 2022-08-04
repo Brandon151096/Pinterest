@@ -1,0 +1,95 @@
+.cuadro-azul{
+    background: rgb(32, 107, 151);
+    border-top: black 5px solid ;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+
+}
+.cuadro-rojo{
+    background: rgb(146, 20, 20);
+    border-top: black 5px solid ;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+
+}
+
+.cuadro-amarillo{
+    background: rgb(236, 236, 30);
+    border-top: black 5px solid ;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+}
+
+.cuadro-rosa{
+    background: pink;
+    border-top: black 5px solid ;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+}
+
+.bloque-azul{
+    background: rgb(32, 107, 151);
+    border: black 5px solid ;
+    margin: 20px;
+    padding: 20px;
+    height: 30px;
+    }
+ .bloque-rosa{
+        background: rgb(216, 35, 204);
+        border: black 5px dashed ;
+        margin: 20px;
+        padding: 20px;
+        height: 30px;
+        }
+
+.padre{
+        background: white;
+        border: black 5px solid;
+        margin: 20px;
+        padding: 20px;
+        height: 250px;
+        }
+.hijo-1{
+        background: white;
+        border: rgb(10, 212, 108) 5px solid;
+        padding: 20px;
+        height: 30px;
+        text-align: center;
+        }
+.hijo-2{
+            background: white;
+            border: rgb(15, 118, 215) 5px solid;
+            padding: 20px;
+            width: 50px;   
+            height: 30px;         
+            display: inline-block;
+            text-align: center;
+        }
+.hijo-3{
+            background: white;
+            border: rgb(189, 23, 189) 5px solid;
+            padding: 20px;
+            width: 50px;   
+            height: 30px;         
+            display: inline-block;
+            text-align: center;
+        }
+.hijo-4{
+            background: white;
+            border: rgb(188, 156, 12) 5px solid;
+            padding: 20px;
+            height: 30px;
+            text-align: end;
+            }

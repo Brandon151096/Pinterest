@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="http://formsubmit.co/brandonchavez151096@gmail.com" method="post">
+        <input type="text"
+        name="nombre"
+        placeholder="Aquí tu nombre"
+        minlength="2"
+        maxlength="10"
+        required>
+        <br>
+        <br>
+        <input type="password"
+        name="contraseña"
+        placeholder="Aquí tu contraseña"
+        minlength="2"
+        maxlength="10"
+        required>
+        <br>
+        <br>
+        <input type="number"
+        name="numero"
+        min="0"
+        max="15"
+        required>
+    
+<p>Selecciona una opcion</p>
+<label for="Perro">Perro</label>
+        <input type="checkbox"
+        id="Perro"
+        value="Perro"
+        checked>
+        <br>
+        <br>
+        <label for="Gato">Gato</label>
+        <input type="checkbox"
+        id="Gato"
+        value="Gato"
+        checked>
+        <br>
+        <br>
+        <p>Selecciona una edad</p>
+        <label>0 a 2 años</label>
+        <input type="radio"
+        value="0 a 2 años"
+        name="age"
+        >
+        <label>2 a 4 años</label>
+        <input type="radio"
+        value="2 a 4 años"
+        name="age"
+        >
+        <label>4 a 6 años</label>
+        <input type="radio"
+        value="4 a 6 años"
+        name="age"
+        >
+        <br>
+        <br>   
+        <label for="Hora">Selecciona una hora</label>
+        <input type="time"
+        name="time"
+        min="00:00"
+        max="23:59"
+        >
+        <br>
+        <br>
+        <label for="Fecha">Selecciona una Fecha</label>
+        <input type="date"
+        name="date"
+        min="2020-01-01"
+        max="2023-03-03">
+        <br>
+        <br>
+        <label>
+        Selecciona un Auto
+        <select name="auto">
+            <option value="Camioneta">Camioneta</option>
+            <option value="Mamalona">Mamalona</option>
+        </select>
+
+        </label>
+          <br>
+
+        <textarea 
+        cols="30" rows="10">
+
+        </textarea>
+        <button type="submit">
+            Enviar
+        </button>
+        
+    </form>
+</body>
+</html>
